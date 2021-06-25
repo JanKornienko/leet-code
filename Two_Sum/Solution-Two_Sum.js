@@ -8,7 +8,7 @@ var twoSum = function(nums, target) {
 		for (var u = 0; u < nums.length; u++) {
 			if (i != u) {
 				if ((nums[i] + nums[u]) == target) {
-					return [i, u]
+					return [i, u];
 				}
 			}
 		}

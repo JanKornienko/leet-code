@@ -43,4 +43,4 @@ Output: "rat"
 - `1 <= n <= 100`
 - `s` contains only lower-case English letters.
 - `0 <= indices[i] < n`
-All values of `indices` are unique (i.e. `indices` is a permutation of the integers from `0` to `n - 1`).
+- All values of `indices` are unique (i.e. `indices` is a permutation of the integers from `0` to `n - 1`).

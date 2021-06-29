@@ -46,5 +46,3 @@ Output: [1]
 - `nums.length == index.length`
 - `0 <= nums[i] <= 100`
 - `0 <= index[i] <= i`
-
-

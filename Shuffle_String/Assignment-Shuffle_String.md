@@ -1,9 +1,10 @@
 # Shuffle String
 ## Easy
+Given a string `s` and an integer array `indices` of the **same length.**
 
-Given a string `s` and an integer array `indices` of the **same length**.\
-The string `s` will be shuffled such that the character at the `ith` position moves to `indices[i]` in the shuffled string.\
-Return *the shuffled string*.
+The string `s` will be shuffled such that the character at the `ith` position moves to `indices[i]` in the shuffled string.
+
+Return *the shuffled string.*
 
 ### Example 1:
 ![Example 1](./Picture-Shuffle_String.jpg)

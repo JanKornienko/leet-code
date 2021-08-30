@@ -36,7 +36,6 @@ var addStrings = function(num1, num2) {
 	}
 	return resArr.join("");
 };
-
 var overflowFun = function() {
 	if(num >= 10) {
 		num -= 10;

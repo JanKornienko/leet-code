@@ -1,16 +1,17 @@
 # Create Target Array in the Given Order
 
-Given two arrays of integers `nums` and `index`. Your task is to create *target* array under the following rules:
+Given two arrays of integers `nums` and `index`. Your task is to create _target_ array under the following rules:
 
-- Initially *target* array is empty.
-- From left to right read nums[i] and index[i], insert at index `index[i]` the value `nums[i]` in *target* array.
+- Initially _target_ array is empty.
+- From left to right read nums[i] and index[i], insert at index `index[i]` the value `nums[i]` in _target_ array.
 - Repeat the previous step until there are no elements to read in `nums` and `index`.
 
-Return *the target array.*
+Return _the target array._
 
 It is guaranteed that the insertion operations will be valid.
 
 ## Example 1:
+
 ```
 Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
 Output: [0,4,1,3,2]
@@ -24,6 +25,7 @@ nums       index     target
 ```
 
 ## Example 2:
+
 ```
 Input: nums = [1,2,3,4,0], index = [0,1,2,3,0]
 Output: [0,1,2,3,4]
@@ -37,12 +39,14 @@ nums       index     target
 ```
 
 ## Example 3:
+
 ```
 Input: nums = [1], index = [0]
 Output: [1]
 ```
 
 ## Constraints:
+
 - `1 <= nums.length, index.length <= 100`
 - `nums.length == index.length`
 - `0 <= nums[i] <= 100`

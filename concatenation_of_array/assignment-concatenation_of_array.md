@@ -4,9 +4,10 @@ Given an integer array `nums` of length `n`, you want to create an array `ans` o
 
 Specifically, `ans` is the **concatenation** of two `nums` arrays.
 
-Return *the array `ans`.*
+Return _the array `ans`._
 
 ## Example 1:
+
 ```
 Input: nums = [1,2,1]
 Output: [1,2,1,1,2,1]
@@ -16,6 +17,7 @@ Explanation: The array ans is formed as follows:
 ```
 
 ## Example 2:
+
 ```
 Input: nums = [1,3,2,1]
 Output: [1,3,2,1,1,3,2,1]
@@ -25,6 +27,7 @@ Explanation: The array ans is formed as follows:
 ```
 
 ## Constraints:
+
 - `n == nums.length`
 - `1 <= n <= 1000`
 - `1 <= nums[i] <= 1000`
